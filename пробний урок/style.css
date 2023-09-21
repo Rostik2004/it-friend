@@ -1,0 +1,39 @@
+.name-list {
+    list-style-type: none;
+    padding: 0;
+    width: 50vw;
+  }
+  .name-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gainsboro;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .name-list li span {
+    margin-right: 5px;
+  }
+  .name-list li button {
+
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+.add-button{
+    text-decoration: none;
+    border: none;
+    height: 30px;
+}
+.delete-button{
+    width: 30px;
+}
+.name-input{
+    border: none;
+    width: 45vw;
+    height: 30px;
+    background: gainsboro;
+}
